@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SmartReminders</string>
+
+    <string-array name="categories">
+        <item>Trabajo</item>
+        <item>Salud</item>
+        <item>Social</item>
+    </string-array>
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="#F0F8FF">
+
+    <!-- Contenedor interno con diseño mejorado -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:elevation="6dp"
+        android:background="#FFFFFF"
+        android:layout_margin="12dp"
+        android:layout_gravity="center"
+        android:clipToOutline="true"
+        android:layout_marginBottom="16dp">
+
+        <!-- Entrada de texto estilizada -->
+        <EditText
+            android:id="@+id/reminderInput"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Ingresa el recordatorio"
+            android:inputType="text"
+            android:background="#E8E8E8"
+            android:padding="14dp"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:layout_marginBottom="20dp"
+            android:elevation="3dp"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"/>
+
+        <!-- Selector de categorías -->
+        <Spinner
+            android:id="@+id/categorySpinner"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:background="#2BFFD2"
+            android:padding="10dp"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            android:elevation="3dp"
+            android:popupBackground="#FFFFFF"
+            android:textColor="#FFFFFF"/>
+
+        <!-- Botón con estilo más moderno -->
+        <Button
+            android:id="@+id/setReminderButton"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:text="Crear Recordatorio"
+            android:backgroundTint="#2BFFD2"
+            android:padding="10dp"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:elevation="4dp"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+</LinearLayout>
